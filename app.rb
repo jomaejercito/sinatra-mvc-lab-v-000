@@ -11,4 +11,6 @@ class App < Sinatra::Base
     @pig_latin = pig.to_pig_latin(params[:user_phrase])
 
     erb :results
+  end
+  
 end
