@@ -10,6 +10,7 @@ class PigLatinizer
     word.map! {|word| piglatinize(word)}.join(" ")
   end
 
+
   def piglatinize(word)
     if word.include?(" ")
        to_pig_latin(word)
@@ -23,5 +24,6 @@ class PigLatinizer
       end
     end
   end
+
 
 end
