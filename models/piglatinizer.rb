@@ -13,8 +13,8 @@ class PigLatinizer
     word << "ay"
   end
 
-  def consonant?(character)
-    !character.match(/[aeiouAEIOU]/)
+  def consonant?(letter)
+    !letter.match(/[aeiouAEIOU]/)
   end
 
   def to_pig_latin(phrase)
