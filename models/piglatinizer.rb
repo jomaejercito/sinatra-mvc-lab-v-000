@@ -14,7 +14,7 @@ class PigLatinizer
       if first_split == ""
          second_split + "way"
       else
-        second_split + first_split + "ay"
+         second_split + first_split + "ay"
       end
     end
   end
